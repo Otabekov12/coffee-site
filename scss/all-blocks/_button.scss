@@ -1,0 +1,29 @@
+
+.button{
+    display: inline-block;
+    width: 217px;
+    text-decoration: none;
+    padding: 15px;
+    font-family:Fraunces;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FEFCF7;
+    background: #0E8784;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}   
+
+.button:hover{
+    background-color: #66D2CF;
+}
+
+.button:disabled{
+    background-color: #e2dedb;
+}

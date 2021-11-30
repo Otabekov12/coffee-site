@@ -1,0 +1,39 @@
+.service .container{
+    position: relative;
+    background-color:#2C343E ;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+// .service__info{
+//     /* width: 540px; */
+//     background-color:#2C343E ;
+//     border-radius: 5px;
+//     color: white;
+//     text-align: center;
+// }
+
+.service-heading{
+    padding-top: 100px;
+    padding-right: 475.5px;
+    padding-left: 475.5px;
+}
+
+.service__info__paragraph{
+    padding-bottom: 317px;
+    width: 540px;
+    margin: 0 auto;
+}
+.service__info{
+    color: #FEFCF7;
+}
+
+
+.quality{
+    position: absolute;
+    // top:-200px;
+    background-color: #0E8784;
+    border-radius: 8px;
+}

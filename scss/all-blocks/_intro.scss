@@ -1,0 +1,30 @@
+.intro .container{
+    width:1280px;
+    height: 450px;
+    padding: 115px 85px;
+    border-radius: 10px;
+    background-image: url('../images/about\ us.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro__heading{
+    width: 188px;
+    height: 48px;
+    font-family: Fraunces;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.intro-paragraph{
+    width: 445px;
+    font-family:Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}

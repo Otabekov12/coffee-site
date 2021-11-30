@@ -1,0 +1,38 @@
+.customer  .container{
+    margin-bottom: 168px;
+}
+
+.customer__right__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.customer-right__link{
+    text-decoration: none;  
+    font-family:"Fraunces", Arial, Helvetica, sans-serif;
+    opacity: 0.4;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    
+    &:hover{
+        opacity: 0.8;
+    }
+    
+    &:active{
+        opacity: 1;
+    }
+    }
+ 
+
+    .customer__right__item + .customer__right__item::before{
+        display: block;
+        width: 255px;
+        height: 1px;
+        margin: 24px 0;
+        background-color:#83888F;
+        content: '';
+    }
+    

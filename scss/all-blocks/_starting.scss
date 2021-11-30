@@ -1,0 +1,31 @@
+.starting  .container{
+    width:1280px;
+    height: 450px;
+    padding: 115px 85px;
+    margin-bottom: 160px;
+    border-radius: 10px;
+    background-image: url("..//../images/creat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.starting__heading{
+    width: 300px;
+    height: 48px;
+    font-family: Fraunces;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.starting__paragraph{
+    width: 445px;
+    font-family:Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}

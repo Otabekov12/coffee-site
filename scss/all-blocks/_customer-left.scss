@@ -1,0 +1,53 @@
+.customer__intro__box{
+display: flex;
+}
+
+
+.customer__left__list{
+    list-style-type: none;
+}
+
+.customer__lable + .customer__lable{
+  margin-left: 23px;
+}
+
+
+.customer__left__heading{
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    list-style-type: none;
+    
+}
+
+.customer__box{
+    width: 228px;
+    background: #F4F1EB;
+    border-radius: 8px;
+    padding: 32px 28px;
+    padding-bottom: 84px;
+    display: block;
+}
+
+.customer__box__heading{
+    display: block;
+    width: 99px;
+    font-family: Fraunces 9pt;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    
+}
+
+.customer__box__text{
+    display: block;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    
+}

@@ -1,0 +1,32 @@
+/* Fonts */
+
+/* Font- Fraunces  */
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: italic;
+    font-weight: 900;
+    src:
+    url('../fonts/fraunces-v10-latin-900italic.woff2') format('woff2')
+    url('../fonts/fraunces-v10-latin-900italic.woff') format('woff');
+}
+
+/* Font-Barlow */
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src:
+    url('../fonts/barlow-v5-latin-regular.woff2') format('woff2')
+    url('../fonts/barlow-v5-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src:
+    url('../fonts/barlow-v5-latin-700.woff2') format('woff2')
+    url('../fonts/barlow-v5-latin-700.woff') format('woff');
+}

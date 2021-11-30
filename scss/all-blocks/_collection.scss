@@ -1,0 +1,80 @@
+
+.collection .container__small{
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 0;
+    background-image: url("../images/Group\ 13.png");
+    background-position: top;
+    background-repeat: no-repeat
+}
+.collection__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    list-style-type: none; */
+}
+
+.collection__item__espresso{
+    width: 255px;
+    background-image: url("../images/kopi1\ copy.png");
+    background-position: center;
+    background-size: 255px 193px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    padding-top: 320px;
+}
+.collection__item__planalto{
+    width: 255px;
+    background-image: url("../images/kopi2.png");
+    background-position: center;
+    background-size: 255px 193px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    padding-top: 320px;
+}
+
+.collection__item__piccollo{
+    width: 255px;
+    background-image: url("../images/kopi3.png");
+    background-position: center;
+    background-size: 255px 193px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    padding-top: 320px;
+}
+
+.collection__item__danche{
+    width: 255px;
+    background-image: url("../images/kopi4\ \(1\).png");
+    background-position: center;
+    background-size: 255px 193px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    padding-top: 320px;
+}
+.collection__heading{
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: #333D4B;
+}
+
+.collection__paragraph{
+    width: 255px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}

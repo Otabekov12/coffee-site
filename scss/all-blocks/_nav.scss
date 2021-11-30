@@ -1,0 +1,30 @@
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav__item + .nav__item{
+    margin-left: 33px;
+}
+
+.nav__link{
+    text-decoration: none;
+    font-family:Barlow;
+    font-weight:700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    transition: color 0.2s ease;
+    &:hover{
+        color: #333D4B;
+    }
+    &:active{
+        color: #333D4B;
+    }
+}
