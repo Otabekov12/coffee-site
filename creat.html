@@ -58,210 +58,358 @@
                 </p>
             </div>
         </section>
-        
-        <!-- Choice -->
-        
-        <section class="choice">
+  
+<!--CREATE-STERPS-->
+
+        <section class="create-steps">
             <div class="container">
-                <ol class="choice__list">
-                    <li class="choice__item">
-                        <h3 class="choice__heading">
-                            <span class="choice__heading__count">01</span>
-                            <span class="choice__heading__text">Pick your coffee</span>
-                        </h3>
-                        
-                        <p class="choice__text">
-                            Select from our evolving range of artisan coffees.
-                            Our beans are ethically 
-                            sourced and we pay fair prices for them. 
-                            There are new coffees in all profiles 
-                            every month for you to try out.
-                        </p>
-                    </li>
+                <div class="steps__inner">
+                    <h2 class="steps__heading visually-hidden">How it works</h2>
                     
-                    <li class="choice__item">
-                        <h3 class="choice__heading">
-                            <span class="choice__heading__count">02</span>
-                            <span class="choice__heading__text">Choose the frequency</span>
-                        </h3>
+                    <ol class="steps__list">
+                        <li class="step">
+                            <h3 class="step__heading">
+                                <span class="step__heading__count">01</span>
+                                <span class="step__heading__name">Pick your coffee</span>
+                            </h3>
+                            
+                            <p class="step__text">
+                                Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
+                            </p>
+                        </li>
                         
-                        <p class="choice__text">
-                            Customize your order frequency, quantity, 
-                            even your roast style and grind type. 
-                            Pause, skip or cancel your subscription 
-                            with no commitment through our online portal.
-                        </p>
-                    </li>
-                    
-                    <li class="choice__item">
-                        <h3 class="choice__heading">
-                            <span class="choice__heading__count">03</span>
-                            <span class="choice__heading__text">Receive and enjoy!</span>
-                        </h3>
+                        <li class="step">
+                            <h3 class="step__heading">
+                                <span class="step__heading__count">02</span>
+                                <span class="step__heading__name">Choose the frequency</span>
+                            </h3>
+                            
+                            <p class="step__text">
+                                Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
+                            </p>
+                        </li>
                         
-                        <p class="choice__text">
-                            We ship your package within 48 hours, freshly roasted. 
-                            Sit back and enjoy award-winning world-class coffees curated
-                            to provide a distinct tasting experience.
-                        </p>
-                    </li>
-                </ol>
+                        <li class="step">
+                            <h3 class="step__heading">
+                                <span class="step__heading__count">03</span>
+                                <span class="step__heading__name">Receive and enjoy!</span>
+                            </h3>
+                            
+                            <p class="step__text">
+                                We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
             </div>
         </section>
         
         <section class="customer" >
             <div class="container">
-
+                
                 <!-- customer rihgt -->
-
+                
                 <div class="customer-right">
                     <ol class="customer__right__list">
                         <li class="customer__right__item">
-                            <a class="customer-right__link" href="">
-                               <span>01</span> Preferences
+                            <a class="customer-right__link" href="#1">
+                                <span>01</span> Preferences
                             </a>
                         </li>
                         <li class="customer__right__item">
-                            <a class="customer-right__link" href="">
-                               <span>02</span> Bean Type
+                            <a class="customer-right__link" href="#2">
+                                <span>02</span> Bean Type
                             </a>
                         </li>
                         <li class="customer__right__item">
-                            <a class="customer-right__link" href="">
-                               <span>03</span> Quantity
+                            <a class="customer-right__link" href="#3">
+                                <span>03</span> Quantity
                             </a>
                         </li>
                         <li class="customer__right__item">
-                            <a class="customer-right__link" href="">
-                               <span>04</span> Grind Option
+                            <a class="customer-right__link" href="#4">
+                                <span>04</span> Grind Option
                             </a>
                         </li>
                         <li class="customer__right__item">
-                            <a class="customer-right__link" href="">
-                               <span>05</span> Deliveries
+                            <a class="customer-right__link" href="#5">
+                                <span>05</span> Deliveries
                             </a>
                         </li>
                     </ol>
                 </div>
-
+                
                 <!-- customer__left -->
-
-                <ul class="customer__left__list">
-                  <li class="customer__left__item">
-                      <h3 class="customer__left__heading">How do you drink your coffee?</h3>
-                      <div class="customer__intro__box">
-                          <label  class="customer__lable">
-                              <input type="radio">
-                              <span class="customer__box">
-                                  <span class="customer__box__heading">Capsule</span>
-                                  <span class="customer__box__text">
-                                      Compatible with Nespresso systems 
-                                      and similar brewers
-                                  </span>
-                              </span>
-                          </label>
-
-                          <label >
-                            <input type="radio">
+                
+                <!-- How do you drink your coffee? box -->
+                
+                <form class=" customer__left" method="post" action="https://echo.htmlacademy.ru/">
+                    
+                    <h3 class="customer__left__heading" id="1">How do you drink your coffee?</h3>
+                    <div class="customer__intro__box">
+                        <label  class="customer__lable">
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
                             <span class="customer__box">
                                 <span class="customer__box__heading">Capsule</span>
                                 <span class="customer__box__text">
-                                    Compatible with Nespresso systems 
-                                    and similar brewers
+                                    Compatible with Nespresso systems and similar brewers
                                 </span>
                             </span>
                         </label>
-
+                        
                         <label >
-                            <input type="radio">
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
                             <span class="customer__box">
-                                <span class="customer__box__heading">Capsule</span>
+                                <span class="customer__box__heading">Filter</span>
                                 <span class="customer__box__text">
-                                    Compatible with Nespresso systems 
-                                    and similar brewers
+                                    For pour over or drip methods like Aeropress, Chemex, and V60
                                 </span>
                             </span>
                         </label>
-                      </div>
-                  </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    
-    
-    <section class="">
-        <div class="container">
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio"  name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Espresso</span>
+                                <span class="customer__box__text">
+                                    Dense and finely ground beans for an intense, flavorful experience
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    
+                    <!-- What type of coffee? box -->
+                    
+                    <h3 class="customer__left__heading" id="2">What type of coffee?</h3>
+                    <div class="customer__intro__box">
+                        <label  class="customer__lable">
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Single Origin</span>
+                                <span class="customer__box__text">
+                                    Distinct, high quality coffee from a specific family-owned farm
+                                </span>
+                            </span>
+                        </label>
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters"> 
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Decaf</span>
+                                <span class="customer__box__text">
+                                    Just like regular coffee, except the caffeine has been removed
+                                </span>
+                            </span>
+                        </label>
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Blended</span>
+                                <span class="customer__box__text">
+                                    Combination of two or three dark roasted beans of organic coffees
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    
+                    
+                    
+                    <!-- How much would you like? box -->
+                    
+                    <h3 class="customer__left__heading" id="3">How much would you like?</h3>
+                    <div class="customer__intro__box">
+                        <label  class="customer__lable">
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">250g</span>
+                                <span class="customer__box__text">
+                                    Perfect for the solo drinker. Yields about 12 delicious cups.
+                                </span>
+                            </span>
+                        </label>
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">500g</span>
+                                <span class="customer__box__text">
+                                    Perfect option for a couple. Yields about 40 delectable cups.
+                                </span>
+                            </span>
+                        </label>
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">1000g</span>
+                                <span class="customer__box__text">
+                                    Perfect for offices and events. Yields about 90 delightful cups.
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    
+                    <!-- Want us  to grind them? box -->
+                    
+                    
+                    
+                    <h3 class="customer__left__heading" id="4">Want us to grind them?</h3>
+                    <div class="customer__intro__box">
+                        <label   class="customer__lable">
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Wholebean</span>
+                                <span class="customer__box__text">
+                                    Best choice if you cherish the full sensory experience
+                                </span>
+                            </span>
+                        </label>
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Filter</span>
+                                <span class="customer__box__text">
+                                    For drip or pour-over coffee methods such as V60 or Aeropress
+                                </span>
+                            </span>
+                        </label>
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Cafetiére</span>
+                                <span class="customer__box__text">
+                                    Course ground beans specially suited for french press coffee
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    
+                    
+                    <!-- How often should we deliver? box -->
+                    
+                    <h3 class="customer__left__heading" id="1">How often should we deliver?</h3>
+                    <div class="customer__intro__box">
+                        <label  class="customer__lable">
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Every week</span>
+                                <span class="customer__box__text">
+                                    $7.20 per shipment. Includes free first-class shipping.
+                                </span>
+                            </span>
+                        </label>
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Every 2 weeks</span>
+                                <span class="customer__box__text">
+                                    $9.60 per shipment. Includes free priority shipping.
+                                </span>
+                            </span>
+                        </label>
+                        
+                        <label >
+                            <input class="input visually-hidden" type="radio" name="coffeeroasters">
+                            <span class="customer__box">
+                                <span class="customer__box__heading">Every month</span>
+                                <span class="customer__box__text">
+                                    $12.00 per shipment. Includes free priority shipping.
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    
+                    <div class="info-box">
+                        <!-- <div class="container"> -->
+                            <h3 class="info-box__heading">ORDER SUMMARY</h3>
+                            
+                            <p class="info-box__text">
+                                “I drink my coffee as <strong class="strong">Filter</strong>,
+                                with a <strong class="strong">Decaf</strong> type of bean. 
+                                <strong class="strong">250g</strong> ground ala 
+                                <strong class="strong">Cafetiare</strong>, 
+                                sent to me <strong class="strong">Every Week</strong>.”
+                            </p>
+                        </div>
+
+                        <button class="creat-button" type="submit">Create my plan!</button>
+                    </form>
+                    
+                </section>
+            </main>
             
-        </div>
-    </section>
-    <!-- Footer -->
-    
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__inner">
-                <a class="logo-link" href="./index.html">
-                    <img
-                    class="logo-link-image" 
-                    src="./images/logo-oq.svg" 
-                    alt="coffeeroasters's logo"
-                    width="236"
-                    height="26"
-                    >
-                </a>
-                
-                <!-- Nav -->
-                
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a class="nav__link" href="./index.html">HOME</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="nav__link" href="/about.html">ABOUT US</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="nav__link" href="/creat.html">Create your plan</a>
-                        </li>
-                    </ul>
-                </nav>
-                
-                <!-- Socials -->
-                
-                <ul class="socials">
-                    <li class="socials__item">
-                        <a class="socials__link" href="#">
+            
+            <!-- Footer -->
+            
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__inner">
+                        <a class="logo-link" href="./index.html">
                             <img
-                            src="./images/facebooke.svg" 
-                            alt="Social media icon"
-                            width="24"
-                            height="24"
+                            class="logo-link-image" 
+                            src="./images/logo-oq.svg" 
+                            alt="coffeeroasters's logo"
+                            width="236"
+                            height="26"
                             >
                         </a>
-                    </li>
-                    <li class="socials__item">
-                        <a class="socials__link" href="#">
-                            <img 
-                            src="./images/twiter-icon.svg" 
-                            alt="Social media icon"
-                            width="24"
-                            height="24"
-                            >
-                        </a>
-                    </li>
-                    <li class="socials__item">
-                        <a class="socials__link" href="#">
-                            <img
-                            src="./images/instagram-icon.svg" 
-                            alt="Social media icon"
-                            width="24"
-                            height="24"
-                            >
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+                        
+                        <!-- Nav -->
+                        
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link" href="./index.html">HOME</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="/about.html">ABOUT US</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="/creat.html">Create your plan</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        
+                        <!-- Socials -->
+                        
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <img
+                                    src="./images/facebooke.svg" 
+                                    alt="Social media icon"
+                                    width="24"
+                                    height="24"
+                                    >
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <img 
+                                    src="./images/twiter-icon.svg" 
+                                    alt="Social media icon"
+                                    width="24"
+                                    height="24"
+                                    >
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <img
+                                    src="./images/instagram-icon.svg" 
+                                    alt="Social media icon"
+                                    width="24"
+                                    height="24"
+                                    >
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </body>
+        </html>

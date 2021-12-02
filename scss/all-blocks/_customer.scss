@@ -1,14 +1,21 @@
 .customer  .container{
     margin-bottom: 168px;
+    display: flex;
 }
 
+.customer-right{
+    margin-right: 125px;
+}
 .customer__right__list{
+    width: 225px;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .customer-right__link{
+    padding: 24px 0;
+    display: block;
     text-decoration: none;  
     font-family:"Fraunces", Arial, Helvetica, sans-serif;
     opacity: 0.4;
@@ -16,6 +23,7 @@
     font-size: 24px;
     line-height: 32px;
     color: #333D4B;
+    border-bottom: 1px solid #83888F;
     
     &:hover{
         opacity: 0.8;
@@ -24,9 +32,7 @@
     &:active{
         opacity: 1;
     }
-    }
- 
-
+    
     .customer__right__item + .customer__right__item::before{
         display: block;
         width: 255px;
@@ -36,3 +42,16 @@
         content: '';
     }
     
+}
+
+
+.customer__right__item{
+    &:first-child .customer-right__link{
+        padding-top: 0;
+    }
+    
+    &:last-child .customer-right__link{
+        border-bottom: none;
+        padding-bottom: none;
+    }
+}

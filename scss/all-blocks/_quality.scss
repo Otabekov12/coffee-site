@@ -1,3 +1,7 @@
+.quality{
+    position: relative;
+}
+
 .quality .container{
     position: relative;
     display: flex;
@@ -6,6 +10,7 @@
     padding-bottom: 190px;
     background-image: url('../images/Mask-about.png');
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .quality__info{

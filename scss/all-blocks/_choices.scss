@@ -2,7 +2,6 @@
     position: relative;
     width: 1280px;
     margin-bottom: 168px;
-    background: #2C343E;
     border-radius: 10px;
 }
 
@@ -31,7 +30,7 @@
         display: inline-block;
         width: 31px;
         height: 31px;
-        border: 2px solid #0E8784;
+        // border: 2px solid #0E8784;
         border-radius: 50%;
         box-sizing: border-box;
         content: '';
@@ -76,4 +75,9 @@
     line-height: 26px;
     color: #FEFCF7;
     
+}
+
+.choice-create{
+    background: #2C343E;
+
 }
