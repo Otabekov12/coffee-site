@@ -16,3 +16,23 @@
 .footer .nav__link:hover{
     color: #fefcf7;
 }
+
+
+@media  only  screen and (max-width:770px){
+    .footer__inner {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .logo-link {
+        margin-right: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .nav {
+        margin-bottom: 40px;
+        align-items: center;
+    }
+}

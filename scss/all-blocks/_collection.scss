@@ -78,3 +78,19 @@
     text-align: center;
     color: #333D4B;
 }
+
+@media only screen and(max-width:770px){
+    .collection__list{
+        flex-direction: column;
+
+    }
+
+    .collection__list{
+        align-items: center;
+        &> li {
+            flex-shrink: 0;
+            margin-bottom: 0;
+        }
+    }
+}
+
