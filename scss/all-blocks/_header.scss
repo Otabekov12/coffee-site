@@ -70,17 +70,17 @@
         margin-top: 30px;
     }
     
-    @media only screen and(max-width:600px){
-        .header .container{
-            align-items: center;
-        }
-    }
-    
-    @media only screen and(max-width:590px){
-        .header{
-            // flex-direction: column;
-            // align-items: center;
+   
+}
 
-        }
+@media only screen and(max-width:600px){
+    .header .container{
+        align-items: center;
+    }
+}
+
+@media only screen and(max-width:590px){
+    .header--active .nav{
+        top: 40px;
     }
 }

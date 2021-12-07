@@ -6,33 +6,26 @@
 .footer__inner{
     display: flex;
     align-items: center;
-    padding: 47px 20px;
+    margin-top: 168px;
+    padding: 47px 85px;
+    background-color: #2c343e;
 }
 
 .footer .logo-link{
-    margin-right: 103px;
+    margin-right: 100px;
 }
 
 .footer .nav__link:hover{
     color: #fefcf7;
 }
 
+.footer .nav__link:active{
+    color: #fefcf7;
+}
+
 
 @media  only  screen and (max-width:770px){
-    .footer__inner {
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
-    }
+    flex-direction: column;
 
-    .logo-link {
-        margin-right: 10px;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-
-    .nav {
-        margin-bottom: 40px;
-        align-items: center;
-    }
+   
 }

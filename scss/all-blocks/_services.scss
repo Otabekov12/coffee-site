@@ -5,6 +5,8 @@
 }
 
 .services__info{
+    max-width: 100%;
+    margin: 0 auto;
     padding-bottom: 150px;
     background-color: #2c343e;
     padding: 100px;
@@ -14,6 +16,8 @@
 }
 
 .services-heading{
+    padding: 0;
+    margin: 0;
     margin-top: 0;
     margin-bottom: 32px;
     font-size: 40px;
@@ -23,6 +27,7 @@
 .services__info__paragraph{
     width: 540px;
     margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -42,12 +47,13 @@
 
 
 .coffe{
-    width: 71px;
-    height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 71px;
+    height: 72px;
     margin: 0 auto;
+    margin-bottom: 56px;
 }
 .services__sub__item{
     max-width: 350px;
@@ -62,6 +68,9 @@
 
 
 .services__sub__heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
     font-family:Fraunces;
     font-weight: 900;
     font-size: 24px;
@@ -73,6 +82,8 @@
 .services__sub__text{
     max-width: 540px;
     width: 100%;
+    margin: 0;
+    padding: 0;
     font-family: Barlow;
     font-size: 16px;
     line-height: 26px;
@@ -81,6 +92,11 @@
 }
 
 @media only screen and (max-width:1015px){
+    .services .container{
+        padding-bottom: 150px;
+        margin-bottom: 550px;
+    }
+    
     .services__sub__list{
         max-width: 575px;
         flex-direction: column;
@@ -96,17 +112,18 @@
             margin-left: 0;
             margin-top: 24px;
         }
-
+        
         &::before{
             margin-bottom: 0;
             margin-right: 55px;
         }
         
     }
-
+    
     .services-heading{
         width: 150%;
         
     }
-
+    
 }
+
