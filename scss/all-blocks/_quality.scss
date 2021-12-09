@@ -4,22 +4,21 @@
 
 .quality .container{
     position: relative;
-    display: flex;
-    justify-content: space-between;
+
     padding: 85px;
+    padding-right: 655px;
     padding-bottom: 190px;
-    background-image: url('../images/Mask-about.png');
-    background-repeat: no-repeat;
-    background-position: center;
+    border-radius: 5px;
+    background-color: #2C343E;
+
 }
 
 .quality__info{
-    width: 540px;
+    width: 100%;
+    max-width: 540px;
 }
 
 .quality__heading{
-    padding-top: 10px;
-    padding-left: 85px;
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
@@ -33,18 +32,61 @@
     height: 447px;
     position: absolute;
     background-image: url(../images/Bitmap2-about.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     content: "";
     
 }
 .quality__paragraph{
-    padding-top: 32px;
-    padding-left: 85px;
-    width: 540px;
+    width: 100%;
+    max-width: 540px;
     font-family: Barlow;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     color: #FEFCF7;
     opacity: 0.8;
+}
+
+
+@media only screen and (max-width:1120px){
+    
+    .quality .container{
+        padding-top: 224px;
+        padding-right: 85px;
+        padding-bottom: 67px;
+    }
+    
+    .quality__heading::before{
+        
+        right: 50%;
+        transform: translateX(50%);
+        top: -170px;
+        border-radius: 5px;
+        width: 573px;
+        height: 320px;
+        background-image: url("/images/about-tablet3.png");
+        background-repeat: no-repeat;
+        content: "";
+    }
+
+    .quality__info{
+        margin: 0 auto;
+       
+    }
+
+    .quality__heading{
+        
+        
+        max-width: 0 auto;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .quality__paragraph{
+       
+       
+        margin: 0 auto;
+        text-align: center;
+    }
 }

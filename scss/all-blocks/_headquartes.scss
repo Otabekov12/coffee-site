@@ -57,7 +57,10 @@
     margin-bottom: 55px;
 }
 .headquarter__table__item{
+    width: 100%;
+    max-width: 223px;
     margin-bottom: 24px;
+
     font-family: Fraunces;
     font-weight: 900;
     font-size: 32px;
@@ -67,8 +70,14 @@
 }
 
 .headquarters__table__item{
+    width: 100%;
+    max-width: 222px;
     font-family: Barlow;
     font-size: 16px;
     line-height: 26px;
     color: #333D4B;
+}
+
+@media only screen and(max-width:986px){
+    
 }

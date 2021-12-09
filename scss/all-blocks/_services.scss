@@ -16,18 +16,23 @@
 }
 
 .services-heading{
+    width: 100%;
+    max-width: 329px;
     padding: 0;
-    margin: 0;
+    margin: 0;  
     margin-top: 0;
+    margin: 0 auto;
     margin-bottom: 32px;
     font-size: 40px;
     line-height: 48px;
-}
+} 
 
 .services__info__paragraph{
-    width: 540px;
-    margin: 0 auto;
+    max-width: 540px;
+    width: 100%;
     margin: 0;
+    margin: 0 auto;
+    text-align: center;
     padding: 0;
 }
 
@@ -68,6 +73,8 @@
 
 
 .services__sub__heading{
+    width: 100%;
+    max-width:255px ;
     margin: 0;
     padding: 0;
     margin-bottom: 24px;
@@ -84,6 +91,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    margin: 0 auto;
     font-family: Barlow;
     font-size: 16px;
     line-height: 26px;
@@ -91,10 +99,22 @@
     color: #FEFCF7;
 }
 
-@media only screen and (max-width:1015px){
+@media only screen and (max-width:1010px){
     .services .container{
         padding-bottom: 150px;
         margin-bottom: 550px;
+    }
+    
+    .services__info{
+        border-radius: 10px;
+    }
+    
+    .services-heading{
+        
+        width: 150%;
+        text-align: center;
+        align-items: center;
+        
     }
     
     .services__sub__list{
@@ -120,10 +140,137 @@
         
     }
     
-    .services-heading{
-        width: 150%;
-        
+    .services__sub__heading{
+        width: 100%;
+        max-width: 255px;
     }
     
+    .services__sub__text{
+        width: 100%;
+        max-width: 344px;
+        margin: 0 auto;
+        font-family: Barlow;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+        
+    }
 }
 
+@media only screen and (max-width:650px){
+
+   
+    .services__info{
+        // width: 100%;
+        // max-width: 327px;
+        
+         
+        border-radius: 10px;
+    }
+    
+    .services-heading{
+        width: 100%;
+        max-width: 279px;
+        padding-top: 64px;
+        font-family: Fraunces 9pt;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+    
+    .services__info__paragraph{
+        width: 100%;
+        max-width: 279px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+
+    .services__sub__item + .services__sub__item{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .services__sub__item{
+        width: 100%;
+        max-width: 279px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 24px;
+        flex-direction: column;
+        padding: 0 20px;
+        padding: 72px 32px;
+        padding-bottom: 48px;
+        
+        &::before {
+            margin: 0;
+            margin-bottom: 56px;
+        }
+        
+       
+    }
+    
+    .coffe{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 56px;
+    }
+
+    .services__sub__heading{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width:490px){
+
+     .services-heading{
+         width: 100%;
+         max-width: 260px;
+         margin: 0 auto;
+         text-align: center;
+         margin-bottom: 24px;
+     }
+
+    .services__info__paragraph{
+        width: 100%;
+        max-width: 279px;
+        margin-bottom: 64px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .services__sub__item{
+        width: 100%;
+        max-width: 279px;
+    }
+
+    // .coffe{
+    //     margin: 0 auto;
+    //     align-items: center;
+    //     padding-top: 72px;
+    //     padding-right: 104px;
+    //     padding-left: 104px;
+    // }
+
+    .services__sub__heading{
+        width: 100%;
+        max-width: 255px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .services__sub__text{
+        width: 100%;
+        max-width: 212px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+}

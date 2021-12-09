@@ -1,13 +1,12 @@
-
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     height: 100%;
 }
 
-body{
+body {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -16,7 +15,7 @@ body{
     font-family: "Arial", sans-serif;
 }
 
-.img{
+.img {
     vertical-align: middle;
     object-fit: cover;
 }
@@ -25,14 +24,14 @@ body{
     flex-grow: 1;
 }
 
-.container{
+.container {
     max-width: 1320px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.container__small{
+.container__small {
     max-width: 1150px;
     margin: 0 auto;
     padding: 0 20px;
@@ -46,4 +45,17 @@ body{
     position: absolute;
     white-space: nowrap;
     width: 1px;
-  }
+}
+
+p {
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
